@@ -85,22 +85,22 @@ class Obligor:
     def _inc_origination(self) -> None:
         """Increments beta for origination."""
         sum_ab: int = self._sum_ab()
-        stki: float = self._stickness(sum_ab)
+        stki: float = self._stickness()
         self._beta = (self._beta + self._c0 * log(1 + self._xi0 / sum_ab)) * stki
 
     def _inc_repay(self) -> None:
         """Increments alpha for repayment."""
         sum_ab: int = self._sum_ab()
-        stki: float = self._stickness(sum_ab)
+        stki: float = self._stickness()
         self._alpha = (self._alpha + self._c1 * log(1 + self._xi1 / sum_ab)) * stki
 
     def _inc_liquidation(self) -> None:
         """Increments liquidation."""
         sum_ab: int = self._sum_ab()
-        stki: float = self._stickness(sum_ab)
+        stki: float = self._stickness()
         self._beta = (self._beta + self._c2 * log(1 + self._xi2 / sum_ab)) * stki
 
-    def _stickness(self, x: int) -> float:
+    def _stickness(self) -> float:
         """Guide sum of alpha + beta."""
         sum_ab: int = self._sum_ab()
         return max(1, self._c3 * log(1 + self._xi3 / sum_ab))
@@ -145,21 +145,22 @@ class Obligor:
             new_loan.amount += amount
             new_loan.outstanding_amount += amount
             new_loan.collateral_amt += collateral_amt
-            
+
             self._outstanding_loans[loan_id] = new_loan
 
         self._inc_origination()  # increment following scheme for new debt
 
-        return 
+        return
+
     def _get_loan_id(self, protocol_name: str, loan_num: int) -> str:
         return "loan_{0}_{1}".format(protocol_name, str(loan_num))
 
-    def _fetch_loan(self, protocol_name: str ="", loan_num: int = 0) -> Loan:
+    def _fetch_loan(self, protocol_name: str = "", loan_num: int = 0) -> Loan:
         """Get the loan."""
         loan_id = self._get_loan_id(protocol_name=protocol_name, loan_num=loan_num)
         return self._outstanding_loans.get(loan_id, None)
 
-    def _pop_loan(self, protocol_name: str ="", loan_num: int = 0) -> Tuple[Loan,str]:
+    def _pop_loan(self, protocol_name: str = "", loan_num: int = 0) -> Tuple[Loan, str]:
         """Get and remove the loan."""
         loan_id = self._get_loan_id(protocol_name=protocol_name, loan_num=loan_num)
         if loan_id in self._outstanding_loans.keys():
@@ -184,7 +185,7 @@ class Obligor:
 
         # move loan to settled loans, get rid of from outstanding....
         self._settled_loans[loan_id] = loan
-        
+
         return True
 
     def add_borrow(
@@ -273,11 +274,13 @@ class Obligor:
         # fetch loan
         loan: Loan = self._fetch_loan(protocol_name=protocol_name, loan_num=loan_num)
 
-        # compute remain collateral 
+        # compute remain collateral
         rem_collat = loan.collateral_amt - amt_to_liq
 
         # reduce loan size by the amount liquidated.
-        outstanding_amount_new: float = loan.outstanding_amount - asset_price*amt_to_liq
+        outstanding_amount_new: float = (
+            loan.outstanding_amount - asset_price * amt_to_liq
+        )
         loan.outstanding_amount = outstanding_amount_new
         loan.amount = outstanding_amount_new
         loan.collateral_amt = rem_collat
@@ -296,8 +299,19 @@ class Obligor:
                 protocol_name=protocol_name,
                 loan_num=loan_num,
             )
-        
-        #TODO, decide what to do when collat is 0. 
+
+        # TODO, decide what to do when collat is 0.
+
+    def withdraw_collateral(
+        self, withdraw_amt: float, protocol_name: str = "", loan_num: int = ""
+    ) -> bool:
+        """Remove collateral from loan."""
+        loan = self._fetch_loan(protocol_name=protocol_name, loan_num=loan_num)
+        if not isinstance(loan, type(None)):
+            loan.collateral_amt = max(loan.collateral_amt - withdraw_amt, 0)
+            return True
+        else:
+            return False
 
     def get_loans(self) -> Dict[str, Dict[str, object]]:
         return self._outstanding_loans
