@@ -261,6 +261,29 @@ class Obligor:
                     )
             return True  # successfully processed repay transaction.
         return False  # nothing to reprocess.
+    
+    # maybe add this.
+    def add_collateral(self,
+                       amt_colat_to_add : float,
+                       borrowed_asset_price : float,
+                       protocol_name: str = "",
+                       loan_num: int = 0,)->bool:
+        """Simple function to improve credit by adding collateral. This effectively awards keeping util low."""
+
+        loan = self._fetch_loan(protocol_name=protocol_name, loan_num=loan_num)
+
+        if not isinstance(loan, type(None)):
+            original_collat_amt = loan.collateral_amt
+            loan.collateral_amt += amt_colat_to_add
+
+            # 0.5 is just a guess at a reasonable parameter. This would need to be optimized.
+            if (loan.collateral_amt - original_collat_amt)*borrowed_asset_price > 0.5 * loan.outstanding_amount:
+
+                # award repay benefit for providing substantial colat to reduce risk
+                self._inc_repay()
+
+            return True
+        return False
 
     def add_liquidation(
         self,
