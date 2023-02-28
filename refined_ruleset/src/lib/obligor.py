@@ -57,8 +57,8 @@ class Obligor:
         self._alpha: int = alpha
         self._beta: int = beta
 
-        self._outstanding_loans: Dict[str, Dict[str, Loan]] = {}
-        self._settled_loans: Dict[str, Dict[str, Loan]] = {}
+        self._outstanding_loans: Dict[str, Loan] = {}
+        self._settled_loans: Dict[str, Loan] = {}
         self._loans_per_protocol: Dict[str, int] = {}
 
         # set migration params
