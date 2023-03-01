@@ -3,12 +3,11 @@ from lib.credit_migration_schema import MigrationParams
 
 # based on results from optimizer
 MIGRATION_PARAMS = MigrationParams(
-    c0=2.60599986,
-    xi0=69.4213835,
-    c1=4.094462218,
-    xi1=181.65380369,
-    c2=0.43581895,
-    xi2=198.9690205,
-    c3=0.43875818,
-    xi3=32.8103525
+    c0=0.95953724,
+    xi0=162.76494505,
+    c1=3.1375114,
+    xi1=135.93681665,
+    c2=0.6242345,
+    xi2=129.31105307,
+    cap=200,
 )

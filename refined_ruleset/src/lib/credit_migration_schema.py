@@ -19,6 +19,5 @@ class MigrationParams(BaseModel):
     c2: float
     xi2: float
 
-    # guides stickiness
-    c3: float
-    xi3: float
+    # stickness, sum ab cap
+    cap: float
