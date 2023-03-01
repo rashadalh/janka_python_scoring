@@ -75,8 +75,7 @@ class Obligor:
         self._xi2 = migration_params.xi2
 
         # for stickiness
-        self._c3 = migration_params.c3
-        self._xi3 = MIGRATION_PARAMS.xi3
+        self._sum_ab_cap = migration_params.cap
 
     def _sum_ab(self) -> int:
         """Return sum of alpha + beta."""
@@ -85,25 +84,28 @@ class Obligor:
     def _inc_origination(self) -> None:
         """Increments beta for origination."""
         sum_ab: int = self._sum_ab()
-        stki: float = self._stickness()
-        self._beta = (self._beta + self._c0 * log(1 + self._xi0 / sum_ab)) * stki
+        self._beta = (self._beta + self._c0 * log(1 + self._xi0 / sum_ab))
+        self._stickness()
 
     def _inc_repay(self) -> None:
         """Increments alpha for repayment."""
         sum_ab: int = self._sum_ab()
-        stki: float = self._stickness()
-        self._alpha = (self._alpha + self._c1 * log(1 + self._xi1 / sum_ab)) * stki
+        self._alpha = (self._alpha + self._c1 * log(1 + self._xi1 / sum_ab))
+        self._stickness()
 
     def _inc_liquidation(self) -> None:
         """Increments liquidation."""
         sum_ab: int = self._sum_ab()
-        stki: float = self._stickness()
-        self._beta = (self._beta + self._c2 * log(1 + self._xi2 / sum_ab)) * stki
+        self._beta = (self._beta + self._c2 * log(1 + self._xi2 / sum_ab))
+        self._stickness()
 
-    def _stickness(self) -> float:
+    def _stickness(self) -> None:
         """Guide sum of alpha + beta."""
-        sum_ab: int = self._sum_ab()
-        return max(1, self._c3 * log(1 + self._xi3 / sum_ab))
+        sumab = self._sum_ab()
+        diff = sumab - self._sum_ab_cap
+        if diff > 0:
+            self._alpha = max(self._alpha-0.5*diff,0)
+            self._beta = max(self._beta-0.5*diff,0)
 
     def _add_loan(
         self,
@@ -151,6 +153,10 @@ class Obligor:
         self._inc_origination()  # increment following scheme for new debt
 
         return
+    
+    @staticmethod
+    def _compute_score(proba: float):
+        return round(100*proba)
 
     def _get_loan_id(self, protocol_name: str, loan_num: int) -> str:
         return "loan_{0}_{1}".format(protocol_name, str(loan_num))
@@ -339,5 +345,27 @@ class Obligor:
     def get_loans(self) -> Dict[str, Dict[str, object]]:
         return self._outstanding_loans
 
-    def get_probit(self) -> float:
+    def get_proba(self) -> float:
         return self._alpha / (self._alpha + self._beta)
+    
+    def get_score(self) -> int:
+        return self._compute_score(self.get_proba())
+    
+    def get_variance(self) -> float:
+        return (self._alpha*self._beta) / (((self._alpha + self._beta)**2)*(self._alpha + self._beta+1))
+    
+    def get_conf_interval(self, z: int = 2) -> Tuple[int, int]:
+        # get variance
+        stdev: float = self.get_variance()**0.5
+
+        # get bounds
+        proba = self.get_proba()
+        lower_bound: float = max(proba - z*stdev,0)
+        upper_bound: float = max(proba + z*stdev, 0)
+
+        # get score
+        lower_score: float = self._compute_score(lower_bound)
+        upper_score: float = self._compute_score(upper_bound)
+
+        return (lower_score, upper_score)
+
