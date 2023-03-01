@@ -107,6 +107,10 @@ class Obligor:
             self._alpha = max(self._alpha-0.5*diff,0)
             self._beta = max(self._beta-0.5*diff,0)
 
+            # ensure can't exceed cap
+            self._alpha = min(self._alpha, self._sum_ab_cap)
+            self._beta = min(self._beta, self._sum_ab_cap)
+
     def _add_loan(
         self,
         amount: float,
