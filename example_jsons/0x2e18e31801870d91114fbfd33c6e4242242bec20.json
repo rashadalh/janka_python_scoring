@@ -1,0 +1,242 @@
+[
+  {
+    "amount": 0.39,
+    "amountUSD": 616.644132,
+    "timestamp": 1674812903,
+    "logIndex": 199,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 300,
+    "amountUSD": 299.986272,
+    "timestamp": 1674813815,
+    "logIndex": 222,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 0.18,
+    "amountUSD": 284.2352136,
+    "timestamp": 1674814511,
+    "logIndex": 296,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 200,
+    "amountUSD": 199.990848,
+    "timestamp": 1674815087,
+    "logIndex": 20,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 0.11,
+    "amountUSD": 173.6992972,
+    "timestamp": 1674815195,
+    "logIndex": 42,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 100,
+    "amountUSD": 99.995424,
+    "timestamp": 1674815303,
+    "logIndex": 138,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 0.05,
+    "amountUSD": 78.954226,
+    "timestamp": 1674815483,
+    "logIndex": 75,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 10,
+    "amountUSD": 15705.9541,
+    "timestamp": 1674828875,
+    "logIndex": 241,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 8000,
+    "amountUSD": 7999.63392,
+    "timestamp": 1674828983,
+    "logIndex": 123,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 5.0459,
+    "amountUSD": 7925.067379319,
+    "timestamp": 1674829163,
+    "logIndex": 209,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 7000,
+    "amountUSD": 6999.67968,
+    "timestamp": 1674829535,
+    "logIndex": 194,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 4.42994,
+    "amountUSD": 6957.6434305754,
+    "timestamp": 1674829775,
+    "logIndex": 225,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 21.4,
+    "amountUSD": 33610.741774,
+    "timestamp": 1674830627,
+    "logIndex": 12,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 20000,
+    "amountUSD": 19999.0848,
+    "timestamp": 1674830699,
+    "logIndex": 177,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 12.6,
+    "amountUSD": 19789.502166,
+    "timestamp": 1674830879,
+    "logIndex": 158,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 8000,
+    "amountUSD": 7999.63392,
+    "timestamp": 1674831551,
+    "logIndex": 370,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 5.0234,
+    "amountUSD": 7967.670801144,
+    "timestamp": 1674831719,
+    "logIndex": 84,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 6400,
+    "amountUSD": 6399.707136,
+    "timestamp": 1674831923,
+    "logIndex": 192,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 4.01,
+    "amountUSD": 6360.3057516,
+    "timestamp": 1674832079,
+    "logIndex": 131,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 16232.763778,
+    "amountUSD": 16232.763778,
+    "timestamp": 1675433339,
+    "logIndex": 365,
+    "symbol": "USDC",
+    "type": "repay"
+  },
+  {
+    "amount": 30795.37,
+    "amountUSD": 30795.37,
+    "timestamp": 1675433555,
+    "logIndex": 271,
+    "symbol": "USDC",
+    "type": "repay"
+  },
+  {
+    "amount": 2999.998579,
+    "amountUSD": 2999.998579,
+    "timestamp": 1675434047,
+    "logIndex": 444,
+    "symbol": "USDC",
+    "type": "repay"
+  },
+  {
+    "amount": 32.5,
+    "amountUSD": 53880.5205497,
+    "timestamp": 1675437023,
+    "logIndex": 323,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 35000,
+    "amountUSD": 34990.51045,
+    "timestamp": 1675758983,
+    "logIndex": 88,
+    "symbol": "DAI",
+    "type": "borrow"
+  },
+  {
+    "amount": 21.4,
+    "amountUSD": 35093.630913,
+    "timestamp": 1675761779,
+    "logIndex": 365,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 25000,
+    "amountUSD": 25002.3785,
+    "timestamp": 1675762307,
+    "logIndex": 278,
+    "symbol": "DAI",
+    "type": "borrow"
+  },
+  {
+    "amount": 15.13,
+    "amountUSD": 24811.52503335,
+    "timestamp": 1675763363,
+    "logIndex": 352,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 10000,
+    "amountUSD": 9996.3771,
+    "timestamp": 1675872851,
+    "logIndex": 245,
+    "symbol": "DAI",
+    "type": "borrow"
+  },
+  {
+    "amount": 6.06,
+    "amountUSD": 9915.3417,
+    "timestamp": 1675873835,
+    "logIndex": 234,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 6.4,
+    "amountUSD": 9752.704,
+    "timestamp": 1676054867,
+    "logIndex": 206,
+    "symbol": "WETH",
+    "type": "deposit"
+  }
+]

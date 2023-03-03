@@ -1,0 +1,42 @@
+[
+  {
+    "amount": 3.0767739796155484,
+    "amountUSD": 4937.606882487033,
+    "timestamp": 1674866891,
+    "logIndex": 279,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 2530.5804175753524,
+    "amountUSD": 2530.5089792901645,
+    "timestamp": 1674866891,
+    "logIndex": 284,
+    "symbol": "DAI",
+    "type": "borrow"
+  },
+  {
+    "amount": 905.720373,
+    "amountUSD": 905.6789272357315,
+    "timestamp": 1674866891,
+    "logIndex": 290,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 500,
+    "amountUSD": 500.10091,
+    "timestamp": 1675044023,
+    "logIndex": 130,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 0.8574635374195129,
+    "amountUSD": 1322.616412866578,
+    "timestamp": 1675105907,
+    "logIndex": 154,
+    "symbol": "aEthDAI",
+    "type": "liquidation"
+  }
+]

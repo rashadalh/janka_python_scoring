@@ -1,0 +1,2058 @@
+[
+  {
+    "amount": 0.009014578580947272,
+    "timestamp": 1676169899,
+    "logIndex": 68,
+    "symbol": "wstETH",
+    "amountUSD": 15.324059756073583,
+    "type": "deposit"
+  },
+  {
+    "amount": 0.09014578580947273,
+    "timestamp": 1676204123,
+    "logIndex": 255,
+    "symbol": "wstETH",
+    "amountUSD": 153.28770389196316,
+    "type": "deposit"
+  },
+  {
+    "amount": 1,
+    "timestamp": 1676209703,
+    "logIndex": 273,
+    "symbol": "wstETH",
+    "amountUSD": 1690.28464251,
+    "type": "deposit"
+  },
+  {
+    "amount": 0.395,
+    "timestamp": 1676209703,
+    "logIndex": 278,
+    "symbol": "WETH",
+    "amountUSD": 602.43076215,
+    "type": "borrow"
+  },
+  {
+    "amount": 0.3560324780940092,
+    "timestamp": 1676209703,
+    "logIndex": 295,
+    "symbol": "wstETH",
+    "amountUSD": 601.7962299570817,
+    "type": "deposit"
+  },
+  {
+    "amount": 1,
+    "timestamp": 1676209703,
+    "logIndex": 300,
+    "symbol": "wstETH",
+    "amountUSD": 1690.28464251,
+    "type": "withdraw"
+  },
+  {
+    "amount": 0.09013480458076181,
+    "timestamp": 1676210411,
+    "logIndex": 368,
+    "symbol": "wstETH",
+    "amountUSD": 152.4582484667943,
+    "type": "deposit"
+  },
+  {
+    "amount": 0.02,
+    "timestamp": 1676210519,
+    "logIndex": 222,
+    "symbol": "WETH",
+    "amountUSD": 30.5238,
+    "type": "repay"
+  },
+  {
+    "amount": 0.03605392183230473,
+    "timestamp": 1676210519,
+    "logIndex": 227,
+    "symbol": "wstETH",
+    "amountUSD": 60.98329938671771,
+    "type": "withdraw"
+  },
+  {
+    "amount": 1,
+    "timestamp": 1676210711,
+    "logIndex": 360,
+    "symbol": "wstETH",
+    "amountUSD": 1691.44704064,
+    "type": "deposit"
+  },
+  {
+    "amount": 0.02,
+    "timestamp": 1676210711,
+    "logIndex": 365,
+    "symbol": "WETH",
+    "amountUSD": 30.5238,
+    "type": "borrow"
+  },
+  {
+    "amount": 0.02,
+    "timestamp": 1676210711,
+    "logIndex": 371,
+    "symbol": "WETH",
+    "amountUSD": 30.5238,
+    "type": "repay"
+  },
+  {
+    "amount": 0.03605392183230473,
+    "timestamp": 1676210711,
+    "logIndex": 376,
+    "symbol": "wstETH",
+    "amountUSD": 60.98329938671771,
+    "type": "withdraw"
+  },
+  {
+    "amount": 0.03605392183230473,
+    "timestamp": 1676210711,
+    "logIndex": 383,
+    "symbol": "wstETH",
+    "amountUSD": 60.98329938671771,
+    "type": "deposit"
+  },
+  {
+    "amount": 1,
+    "timestamp": 1676210711,
+    "logIndex": 388,
+    "symbol": "wstETH",
+    "amountUSD": 1691.44704064,
+    "type": "withdraw"
+  },
+  {
+    "amount": 0.02,
+    "timestamp": 1676210783,
+    "logIndex": 108,
+    "symbol": "WETH",
+    "amountUSD": 30.5238,
+    "type": "repay"
+  },
+  {
+    "amount": 0.03605392183230473,
+    "timestamp": 1676210783,
+    "logIndex": 113,
+    "symbol": "wstETH",
+    "amountUSD": 60.98329938671771,
+    "type": "withdraw"
+  },
+  {
+    "amount": 0.9543504820440128,
+    "timestamp": 1676909279,
+    "logIndex": 204,
+    "symbol": "wstETH",
+    "amountUSD": 1808.3033534819888,
+    "type": "deposit"
+  },
+  {
+    "amount": 8.558202364289707,
+    "timestamp": 1676909315,
+    "logIndex": 258,
+    "symbol": "wstETH",
+    "amountUSD": 16216.082378851723,
+    "type": "deposit"
+  },
+  {
+    "amount": 4.779652538560802,
+    "timestamp": 1676909315,
+    "logIndex": 263,
+    "symbol": "WETH",
+    "amountUSD": 8162.595012303366,
+    "type": "borrow"
+  },
+  {
+    "amount": 4.303164591197895,
+    "timestamp": 1676909315,
+    "logIndex": 295,
+    "symbol": "wstETH",
+    "amountUSD": 8153.636538415078,
+    "type": "deposit"
+  },
+  {
+    "amount": 8.558202364289707,
+    "timestamp": 1676909315,
+    "logIndex": 300,
+    "symbol": "wstETH",
+    "amountUSD": 16216.082378851723,
+    "type": "withdraw"
+  },
+  {
+    "amount": 2.7427927596432715,
+    "timestamp": 1676909339,
+    "logIndex": 136,
+    "symbol": "WETH",
+    "amountUSD": 4684.086619063586,
+    "type": "repay"
+  },
+  {
+    "amount": 3.086701540820785,
+    "timestamp": 1676909339,
+    "logIndex": 141,
+    "symbol": "wstETH",
+    "amountUSD": 5848.682273947687,
+    "type": "withdraw"
+  },
+  {
+    "amount": 1.9116883284234956,
+    "timestamp": 1676909387,
+    "logIndex": 137,
+    "symbol": "WETH",
+    "amountUSD": 3264.7430935150774,
+    "type": "repay"
+  },
+  {
+    "amount": 2.1513879560048776,
+    "timestamp": 1676909387,
+    "logIndex": 142,
+    "symbol": "wstETH",
+    "amountUSD": 4076.4500345324554,
+    "type": "withdraw"
+  },
+  {
+    "amount": 268.3372372769011,
+    "timestamp": 1676910191,
+    "logIndex": 93,
+    "symbol": "wstETH",
+    "amountUSD": 505885.6832884164,
+    "type": "deposit"
+  },
+  {
+    "amount": 213.99397968566038,
+    "timestamp": 1676910191,
+    "logIndex": 98,
+    "symbol": "WETH",
+    "amountUSD": 363614.7843003855,
+    "type": "borrow"
+  },
+  {
+    "amount": 514.4335260838166,
+    "timestamp": 1676910275,
+    "logIndex": 397,
+    "symbol": "wstETH",
+    "amountUSD": 969841.377552944,
+    "type": "deposit"
+  },
+  {
+    "amount": 94.18568357508748,
+    "timestamp": 1676910275,
+    "logIndex": 402,
+    "symbol": "WETH",
+    "amountUSD": 160038.64719767484,
+    "type": "borrow"
+  },
+  {
+    "amount": 84.79622635500701,
+    "timestamp": 1676910275,
+    "logIndex": 434,
+    "symbol": "wstETH",
+    "amountUSD": 159863.00427478767,
+    "type": "deposit"
+  },
+  {
+    "amount": 514.4335260838166,
+    "timestamp": 1676910275,
+    "logIndex": 439,
+    "symbol": "wstETH",
+    "amountUSD": 969841.377552944,
+    "type": "withdraw"
+  },
+  {
+    "amount": 7.567648994127248,
+    "timestamp": 1676910311,
+    "logIndex": 77,
+    "symbol": "wstETH",
+    "amountUSD": 14266.99224129827,
+    "type": "withdraw"
+  },
+  {
+    "amount": 295.6225137570238,
+    "timestamp": 1676910407,
+    "logIndex": 206,
+    "symbol": "WETH",
+    "amountUSD": 502316.54522242147,
+    "type": "repay"
+  },
+  {
+    "amount": 332.68954262289907,
+    "timestamp": 1676910407,
+    "logIndex": 211,
+    "symbol": "wstETH",
+    "amountUSD": 627206.56402608,
+    "type": "withdraw"
+  },
+  {
+    "amount": 8.172684267968009,
+    "timestamp": 1676916299,
+    "logIndex": 148,
+    "symbol": "wstETH",
+    "amountUSD": 15408.420839775918,
+    "type": "deposit"
+  },
+  {
+    "amount": 83.3536859684139,
+    "timestamp": 1676916323,
+    "logIndex": 200,
+    "symbol": "wstETH",
+    "amountUSD": 157151.38745561457,
+    "type": "deposit"
+  },
+  {
+    "amount": 36.97447147884561,
+    "timestamp": 1676916323,
+    "logIndex": 205,
+    "symbol": "WETH",
+    "amountUSD": 62829.545444532894,
+    "type": "borrow"
+  },
+  {
+    "amount": 33.28845248946351,
+    "timestamp": 1676916323,
+    "logIndex": 237,
+    "symbol": "wstETH",
+    "amountUSD": 62760.58981904962,
+    "type": "deposit"
+  },
+  {
+    "amount": 83.3536859684139,
+    "timestamp": 1676916323,
+    "logIndex": 242,
+    "symbol": "wstETH",
+    "amountUSD": 157151.38745561457,
+    "type": "withdraw"
+  },
+  {
+    "amount": 321.0424465958773,
+    "timestamp": 1676916815,
+    "logIndex": 212,
+    "symbol": "wstETH",
+    "amountUSD": 605279.3626163765,
+    "type": "deposit"
+  },
+  {
+    "amount": 256.05238970780744,
+    "timestamp": 1676916815,
+    "logIndex": 217,
+    "symbol": "WETH",
+    "amountUSD": 435101.696167104,
+    "type": "borrow"
+  },
+  {
+    "amount": 16.712297927955976,
+    "timestamp": 1676917559,
+    "logIndex": 109,
+    "symbol": "wstETH",
+    "amountUSD": 31508.634278574184,
+    "type": "deposit"
+  },
+  {
+    "amount": 13.32941117951757,
+    "timestamp": 1676917559,
+    "logIndex": 114,
+    "symbol": "WETH",
+    "amountUSD": 22650.245208549255,
+    "type": "borrow"
+  },
+  {
+    "amount": 1388.1025542722734,
+    "timestamp": 1676919203,
+    "logIndex": 122,
+    "symbol": "wstETH",
+    "amountUSD": 2617067.7373191784,
+    "type": "deposit"
+  },
+  {
+    "amount": 1107.1261507918282,
+    "timestamp": 1676919203,
+    "logIndex": 127,
+    "symbol": "WETH",
+    "amountUSD": 1881304.316785266,
+    "type": "borrow"
+  },
+  {
+    "amount": 3386.0191299031517,
+    "timestamp": 1676919263,
+    "logIndex": 276,
+    "symbol": "wstETH",
+    "amountUSD": 6383852.112037062,
+    "type": "deposit"
+  },
+  {
+    "amount": 605.090395692524,
+    "timestamp": 1676919263,
+    "logIndex": 281,
+    "symbol": "WETH",
+    "amountUSD": 1028210.8977802428,
+    "type": "borrow"
+  },
+  {
+    "amount": 544.7683789169374,
+    "timestamp": 1676919263,
+    "logIndex": 313,
+    "symbol": "wstETH",
+    "amountUSD": 1027082.43305742,
+    "type": "deposit"
+  },
+  {
+    "amount": 3386.0191299031517,
+    "timestamp": 1676919263,
+    "logIndex": 318,
+    "symbol": "wstETH",
+    "amountUSD": 6383852.112037062,
+    "type": "withdraw"
+  },
+  {
+    "amount": 48.49489079620255,
+    "timestamp": 1676919827,
+    "logIndex": 88,
+    "symbol": "wstETH",
+    "amountUSD": 91303.79335278278,
+    "type": "withdraw"
+  },
+  {
+    "amount": 1937.7049877779807,
+    "timestamp": 1676919911,
+    "logIndex": 223,
+    "symbol": "WETH",
+    "amountUSD": 3288130.347860211,
+    "type": "repay"
+  },
+  {
+    "amount": 2180.6667493931695,
+    "timestamp": 1676919911,
+    "logIndex": 228,
+    "symbol": "wstETH",
+    "amountUSD": 4105652.017953808,
+    "type": "withdraw"
+  },
+  {
+    "amount": 168.57566126266207,
+    "timestamp": 1676920043,
+    "logIndex": 149,
+    "symbol": "wstETH",
+    "amountUSD": 317385.9573149109,
+    "type": "deposit"
+  },
+  {
+    "amount": 1428.81966326036,
+    "timestamp": 1676920079,
+    "logIndex": 109,
+    "symbol": "wstETH",
+    "amountUSD": 2690111.3319535954,
+    "type": "deposit"
+  },
+  {
+    "amount": 763.3837454004097,
+    "timestamp": 1676920079,
+    "logIndex": 114,
+    "symbol": "WETH",
+    "amountUSD": 1295401.1452448631,
+    "type": "borrow"
+  },
+  {
+    "amount": 687.281319342976,
+    "timestamp": 1676920079,
+    "logIndex": 146,
+    "symbol": "wstETH",
+    "amountUSD": 1293979.438374832,
+    "type": "deposit"
+  },
+  {
+    "amount": 1428.81966326036,
+    "timestamp": 1676920079,
+    "logIndex": 151,
+    "symbol": "wstETH",
+    "amountUSD": 2690111.3319535954,
+    "type": "withdraw"
+  },
+  {
+    "amount": 730.929138984791,
+    "timestamp": 1676920115,
+    "logIndex": 76,
+    "symbol": "WETH",
+    "amountUSD": 1240328.2745260717,
+    "type": "repay"
+  },
+  {
+    "amount": 822.5776780264658,
+    "timestamp": 1676920115,
+    "logIndex": 81,
+    "symbol": "wstETH",
+    "amountUSD": 1548708.7628831505,
+    "type": "withdraw"
+  },
+  {
+    "amount": 488.44103978864007,
+    "timestamp": 1676920487,
+    "logIndex": 126,
+    "symbol": "wstETH",
+    "amountUSD": 919612.7474396238,
+    "type": "deposit"
+  },
+  {
+    "amount": 389.57259823204595,
+    "timestamp": 1676920487,
+    "logIndex": 131,
+    "symbol": "WETH",
+    "amountUSD": 661073.5333919234,
+    "type": "borrow"
+  },
+  {
+    "amount": 42.66509843107793,
+    "timestamp": 1676922251,
+    "logIndex": 64,
+    "symbol": "wstETH",
+    "amountUSD": 80327.74724450595,
+    "type": "deposit"
+  },
+  {
+    "amount": 34.02904962586612,
+    "timestamp": 1676922251,
+    "logIndex": 69,
+    "symbol": "WETH",
+    "amountUSD": 57744.574891124736,
+    "type": "borrow"
+  },
+  {
+    "amount": 207.9433995658491,
+    "timestamp": 1676923019,
+    "logIndex": 125,
+    "symbol": "wstETH",
+    "amountUSD": 393556.93408757146,
+    "type": "deposit"
+  },
+  {
+    "amount": 165.85279621850907,
+    "timestamp": 1676923019,
+    "logIndex": 130,
+    "symbol": "WETH",
+    "amountUSD": 282913.5573408504,
+    "type": "borrow"
+  },
+  {
+    "amount": 3573.2248755194023,
+    "timestamp": 1676926103,
+    "logIndex": 167,
+    "symbol": "wstETH",
+    "amountUSD": 6762741.350535341,
+    "type": "deposit"
+  },
+  {
+    "amount": 539.2626795546084,
+    "timestamp": 1676926103,
+    "logIndex": 172,
+    "symbol": "WETH",
+    "amountUSD": 919880.3185262621,
+    "type": "borrow"
+  },
+  {
+    "amount": 485.503088204111,
+    "timestamp": 1676926103,
+    "logIndex": 204,
+    "symbol": "wstETH",
+    "amountUSD": 918870.7469560769,
+    "type": "deposit"
+  },
+  {
+    "amount": 3573.2248755194023,
+    "timestamp": 1676926103,
+    "logIndex": 209,
+    "symbol": "wstETH",
+    "amountUSD": 6762741.350535341,
+    "type": "withdraw"
+  },
+  {
+    "amount": 213.44943346597617,
+    "timestamp": 1676926115,
+    "logIndex": 203,
+    "symbol": "wstETH",
+    "amountUSD": 403977.74006285344,
+    "type": "deposit"
+  },
+  {
+    "amount": 170.26471157796277,
+    "timestamp": 1676926115,
+    "logIndex": 208,
+    "symbol": "WETH",
+    "amountUSD": 290439.4519744585,
+    "type": "borrow"
+  },
+  {
+    "amount": 184.57649521921164,
+    "timestamp": 1676926367,
+    "logIndex": 114,
+    "symbol": "wstETH",
+    "amountUSD": 349332.36503185576,
+    "type": "deposit"
+  },
+  {
+    "amount": 147.23331360974723,
+    "timestamp": 1676926367,
+    "logIndex": 119,
+    "symbol": "WETH",
+    "amountUSD": 251152.23536861924,
+    "type": "borrow"
+  },
+  {
+    "amount": 4334.607941530248,
+    "timestamp": 1676926511,
+    "logIndex": 64,
+    "symbol": "wstETH",
+    "amountUSD": 8203746.8633385245,
+    "type": "deposit"
+  },
+  {
+    "amount": 350.1996712774735,
+    "timestamp": 1676926511,
+    "logIndex": 69,
+    "symbol": "WETH",
+    "amountUSD": 597374.5215014326,
+    "type": "borrow"
+  },
+  {
+    "amount": 315.3850836608689,
+    "timestamp": 1676926511,
+    "logIndex": 92,
+    "symbol": "wstETH",
+    "amountUSD": 596902.7477749698,
+    "type": "deposit"
+  },
+  {
+    "amount": 4334.607941530248,
+    "timestamp": 1676926511,
+    "logIndex": 97,
+    "symbol": "wstETH",
+    "amountUSD": 8203746.8633385245,
+    "type": "withdraw"
+  },
+  {
+    "amount": 4334.604805787172,
+    "timestamp": 1676926751,
+    "logIndex": 88,
+    "symbol": "wstETH",
+    "amountUSD": 8199835.785020437,
+    "type": "deposit"
+  },
+  {
+    "amount": 677.9802171484519,
+    "timestamp": 1676926751,
+    "logIndex": 93,
+    "symbol": "WETH",
+    "amountUSD": 1155955.7278539366,
+    "type": "borrow"
+  },
+  {
+    "amount": 610.5130228053772,
+    "timestamp": 1676926751,
+    "logIndex": 113,
+    "symbol": "wstETH",
+    "amountUSD": 1154916.4816448388,
+    "type": "deposit"
+  },
+  {
+    "amount": 4334.604805787172,
+    "timestamp": 1676926751,
+    "logIndex": 118,
+    "symbol": "wstETH",
+    "amountUSD": 8199835.785020437,
+    "type": "withdraw"
+  },
+  {
+    "amount": 986.7915360939606,
+    "timestamp": 1676932139,
+    "logIndex": 221,
+    "symbol": "wstETH",
+    "amountUSD": 1864988.8362103663,
+    "type": "deposit"
+  },
+  {
+    "amount": 787.1505130174086,
+    "timestamp": 1676932139,
+    "logIndex": 226,
+    "symbol": "WETH",
+    "amountUSD": 1340840.5520945722,
+    "type": "borrow"
+  },
+  {
+    "amount": 6356.409932010804,
+    "timestamp": 1676932223,
+    "logIndex": 139,
+    "symbol": "wstETH",
+    "amountUSD": 12013310.945593746,
+    "type": "deposit"
+  },
+  {
+    "amount": 425.9160296125351,
+    "timestamp": 1676932223,
+    "logIndex": 144,
+    "symbol": "WETH",
+    "amountUSD": 725509.8927680806,
+    "type": "borrow"
+  },
+  {
+    "amount": 383.5097799171008,
+    "timestamp": 1676932223,
+    "logIndex": 164,
+    "symbol": "wstETH",
+    "amountUSD": 724815.1529086316,
+    "type": "deposit"
+  },
+  {
+    "amount": 6356.409932010804,
+    "timestamp": 1676932223,
+    "logIndex": 169,
+    "symbol": "wstETH",
+    "amountUSD": 12013310.945593746,
+    "type": "withdraw"
+  },
+  {
+    "amount": 3649.2707700477154,
+    "timestamp": 1676933591,
+    "logIndex": 170,
+    "symbol": "WETH",
+    "amountUSD": 6216206.625206312,
+    "type": "repay"
+  },
+  {
+    "amount": 4117.132353912969,
+    "timestamp": 1676933591,
+    "logIndex": 175,
+    "symbol": "wstETH",
+    "amountUSD": 7781183.356762263,
+    "type": "withdraw"
+  },
+  {
+    "amount": 6616.3241978126525,
+    "timestamp": 1676933639,
+    "logIndex": 150,
+    "symbol": "WETH",
+    "amountUSD": 11270316.976895109,
+    "type": "borrow"
+  },
+  {
+    "amount": 11027.20699635442,
+    "timestamp": 1676933639,
+    "logIndex": 190,
+    "symbol": "wstETH",
+    "amountUSD": 20840894.140810322,
+    "type": "withdraw"
+  },
+  {
+    "amount": 6527.414840184649,
+    "timestamp": 1676933735,
+    "logIndex": 152,
+    "symbol": "WETH",
+    "amountUSD": 11118867.83191352,
+    "type": "repay"
+  },
+  {
+    "amount": 7364.274267207769,
+    "timestamp": 1676933735,
+    "logIndex": 157,
+    "symbol": "wstETH",
+    "amountUSD": 13918126.364863764,
+    "type": "withdraw"
+  },
+  {
+    "amount": 84.90202935035155,
+    "timestamp": 1676933879,
+    "logIndex": 112,
+    "symbol": "wstETH",
+    "amountUSD": 159704.78971978452,
+    "type": "deposit"
+  },
+  {
+    "amount": 67.72536456475753,
+    "timestamp": 1676933879,
+    "logIndex": 117,
+    "symbol": "WETH",
+    "amountUSD": 114820.58481121623,
+    "type": "borrow"
+  },
+  {
+    "amount": 382.36763657883466,
+    "timestamp": 1676937419,
+    "logIndex": 83,
+    "symbol": "wstETH",
+    "amountUSD": 721819.8580203305,
+    "type": "deposit"
+  },
+  {
+    "amount": 305.01405761143275,
+    "timestamp": 1676937419,
+    "logIndex": 88,
+    "symbol": "WETH",
+    "amountUSD": 518962.6320326903,
+    "type": "borrow"
+  },
+  {
+    "amount": 340.015519260853,
+    "timestamp": 1676939519,
+    "logIndex": 293,
+    "symbol": "wstETH",
+    "amountUSD": 641869.055743101,
+    "type": "deposit"
+  },
+  {
+    "amount": 271.23045919397856,
+    "timestamp": 1676939519,
+    "logIndex": 298,
+    "symbol": "WETH",
+    "amountUSD": 461481.92018762324,
+    "type": "borrow"
+  },
+  {
+    "amount": 650.842919033822,
+    "timestamp": 1676941115,
+    "logIndex": 181,
+    "symbol": "wstETH",
+    "amountUSD": 1232495.5454742329,
+    "type": "deposit"
+  },
+  {
+    "amount": 519.1784789475896,
+    "timestamp": 1676941115,
+    "logIndex": 186,
+    "symbol": "WETH",
+    "amountUSD": 886123.7740491861,
+    "type": "borrow"
+  },
+  {
+    "amount": 1123.6151231962506,
+    "timestamp": 1676944319,
+    "logIndex": 125,
+    "symbol": "wstETH",
+    "amountUSD": 2127780.135063426,
+    "type": "deposit"
+  },
+  {
+    "amount": 674.1690739177504,
+    "timestamp": 1676944319,
+    "logIndex": 130,
+    "symbol": "WETH",
+    "amountUSD": 1150658.7201730837,
+    "type": "borrow"
+  },
+  {
+    "amount": 606.9605403235182,
+    "timestamp": 1676944319,
+    "logIndex": 162,
+    "symbol": "wstETH",
+    "amountUSD": 1149395.8685728512,
+    "type": "deposit"
+  },
+  {
+    "amount": 1123.6151231962506,
+    "timestamp": 1676944319,
+    "logIndex": 167,
+    "symbol": "wstETH",
+    "amountUSD": 2127780.135063426,
+    "type": "withdraw"
+  },
+  {
+    "amount": 1761.4117970373961,
+    "timestamp": 1676947463,
+    "logIndex": 168,
+    "symbol": "WETH",
+    "amountUSD": 3020530.573625908,
+    "type": "repay"
+  },
+  {
+    "amount": 1987.2368906327624,
+    "timestamp": 1676947463,
+    "logIndex": 173,
+    "symbol": "wstETH",
+    "amountUSD": 3780971.844288117,
+    "type": "withdraw"
+  },
+  {
+    "amount": 2464.68725161114,
+    "timestamp": 1676962559,
+    "logIndex": 89,
+    "symbol": "wstETH",
+    "amountUSD": 4665987.6645085355,
+    "type": "deposit"
+  },
+  {
+    "amount": 1966.1323521454847,
+    "timestamp": 1676962559,
+    "logIndex": 94,
+    "symbol": "WETH",
+    "amountUSD": 3354772.3098187977,
+    "type": "borrow"
+  },
+  {
+    "amount": 1456.6498505796822,
+    "timestamp": 1676962631,
+    "logIndex": 81,
+    "symbol": "wstETH",
+    "amountUSD": 2757635.975870797,
+    "type": "deposit"
+  },
+  {
+    "amount": 873.9899103478093,
+    "timestamp": 1676962631,
+    "logIndex": 86,
+    "symbol": "WETH",
+    "amountUSD": 1491271.5042282601,
+    "type": "borrow"
+  },
+  {
+    "amount": 786.8610542149084,
+    "timestamp": 1676962631,
+    "logIndex": 130,
+    "symbol": "wstETH",
+    "amountUSD": 1489634.8290230066,
+    "type": "deposit"
+  },
+  {
+    "amount": 1456.6498505796822,
+    "timestamp": 1676962631,
+    "logIndex": 135,
+    "symbol": "wstETH",
+    "amountUSD": 2757635.975870797,
+    "type": "withdraw"
+  },
+  {
+    "amount": 722.1185531745209,
+    "timestamp": 1676963603,
+    "logIndex": 119,
+    "symbol": "wstETH",
+    "amountUSD": 1367068.4827141971,
+    "type": "deposit"
+  },
+  {
+    "amount": 576.0496044040337,
+    "timestamp": 1676963603,
+    "logIndex": 124,
+    "symbol": "WETH",
+    "amountUSD": 982901.9190025147,
+    "type": "borrow"
+  },
+  {
+    "amount": 1515.3373670607784,
+    "timestamp": 1676966327,
+    "logIndex": 82,
+    "symbol": "wstETH",
+    "amountUSD": 2869186.377115074,
+    "type": "deposit"
+  },
+  {
+    "amount": 1208.8210926813515,
+    "timestamp": 1676966327,
+    "logIndex": 87,
+    "symbol": "WETH",
+    "amountUSD": 2062908.6147077172,
+    "type": "borrow"
+  },
+  {
+    "amount": 1072.5771792858834,
+    "timestamp": 1676966687,
+    "logIndex": 166,
+    "symbol": "WETH",
+    "amountUSD": 1827956.9462941177,
+    "type": "borrow"
+  },
+  {
+    "amount": 70.87116825972538,
+    "timestamp": 1676966987,
+    "logIndex": 54,
+    "symbol": "wstETH",
+    "amountUSD": 134010.3894577264,
+    "type": "deposit"
+  },
+  {
+    "amount": 56.535676193019476,
+    "timestamp": 1676966987,
+    "logIndex": 59,
+    "symbol": "WETH",
+    "amountUSD": 96351.8374307305,
+    "type": "borrow"
+  },
+  {
+    "amount": 64.29222521079546,
+    "timestamp": 1676967311,
+    "logIndex": 75,
+    "symbol": "wstETH",
+    "amountUSD": 121570.25700532655,
+    "type": "deposit"
+  },
+  {
+    "amount": 51.28750821443469,
+    "timestamp": 1676967311,
+    "logIndex": 80,
+    "symbol": "WETH",
+    "amountUSD": 87407.56255984459,
+    "type": "borrow"
+  },
+  {
+    "amount": 818.5669383012988,
+    "timestamp": 1676967995,
+    "logIndex": 97,
+    "symbol": "wstETH",
+    "amountUSD": 1547829.3485577265,
+    "type": "deposit"
+  },
+  {
+    "amount": 652.9916977716582,
+    "timestamp": 1676967995,
+    "logIndex": 102,
+    "symbol": "WETH",
+    "amountUSD": 1112871.6262719778,
+    "type": "borrow"
+  },
+  {
+    "amount": 214.7738761263512,
+    "timestamp": 1676968055,
+    "logIndex": 98,
+    "symbol": "wstETH",
+    "amountUSD": 406116.21752246446,
+    "type": "withdraw"
+  },
+  {
+    "amount": 2696.969378453064,
+    "timestamp": 1676971295,
+    "logIndex": 276,
+    "symbol": "wstETH",
+    "amountUSD": 5023925.09435173,
+    "type": "deposit"
+  },
+  {
+    "amount": 1618.1816270718386,
+    "timestamp": 1676971295,
+    "logIndex": 281,
+    "symbol": "WETH",
+    "amountUSD": 2716832.967864717,
+    "type": "borrow"
+  },
+  {
+    "amount": 1456.863615830796,
+    "timestamp": 1676971295,
+    "logIndex": 349,
+    "symbol": "wstETH",
+    "amountUSD": 2713851.235054989,
+    "type": "deposit"
+  },
+  {
+    "amount": 2696.969378453064,
+    "timestamp": 1676971295,
+    "logIndex": 354,
+    "symbol": "wstETH",
+    "amountUSD": 5023925.09435173,
+    "type": "withdraw"
+  },
+  {
+    "amount": 7271.78142390872,
+    "timestamp": 1676971331,
+    "logIndex": 161,
+    "symbol": "WETH",
+    "amountUSD": 12208898.66567764,
+    "type": "repay"
+  },
+  {
+    "amount": 8204.07376089729,
+    "timestamp": 1676971331,
+    "logIndex": 166,
+    "symbol": "wstETH",
+    "amountUSD": 15282580.652408311,
+    "type": "withdraw"
+  },
+  {
+    "amount": 1602.8234024152343,
+    "timestamp": 1676971487,
+    "logIndex": 104,
+    "symbol": "wstETH",
+    "amountUSD": 2985745.6957212,
+    "type": "deposit"
+  },
+  {
+    "amount": 1277.4990105438394,
+    "timestamp": 1676971487,
+    "logIndex": 109,
+    "symbol": "WETH",
+    "amountUSD": 2144846.641560574,
+    "type": "borrow"
+  },
+  {
+    "amount": 942.9101760462706,
+    "timestamp": 1676971667,
+    "logIndex": 109,
+    "symbol": "wstETH",
+    "amountUSD": 1756456.7595778904,
+    "type": "deposit"
+  },
+  {
+    "amount": 565.7461056277624,
+    "timestamp": 1676971667,
+    "logIndex": 114,
+    "symbol": "WETH",
+    "amountUSD": 949854.8528151981,
+    "type": "borrow"
+  },
+  {
+    "amount": 509.3463572309257,
+    "timestamp": 1676971667,
+    "logIndex": 146,
+    "symbol": "wstETH",
+    "amountUSD": 948812.3840979019,
+    "type": "deposit"
+  },
+  {
+    "amount": 942.9101760462706,
+    "timestamp": 1676971667,
+    "logIndex": 151,
+    "symbol": "wstETH",
+    "amountUSD": 1756456.7595778904,
+    "type": "withdraw"
+  },
+  {
+    "amount": 2160.4397237710614,
+    "timestamp": 1676971703,
+    "logIndex": 153,
+    "symbol": "WETH",
+    "amountUSD": 3627252.8178724553,
+    "type": "repay"
+  },
+  {
+    "amount": 2437.4229389671546,
+    "timestamp": 1676971703,
+    "logIndex": 158,
+    "symbol": "wstETH",
+    "amountUSD": 4540440.972915089,
+    "type": "withdraw"
+  },
+  {
+    "amount": 164.4301655253239,
+    "timestamp": 1676976575,
+    "logIndex": 84,
+    "symbol": "wstETH",
+    "amountUSD": 307461.6675924386,
+    "type": "deposit"
+  },
+  {
+    "amount": 131.118985548978,
+    "timestamp": 1676976575,
+    "logIndex": 89,
+    "symbol": "WETH",
+    "amountUSD": 220975.231503358,
+    "type": "borrow"
+  },
+  {
+    "amount": 852.0637650358638,
+    "timestamp": 1676982215,
+    "logIndex": 364,
+    "symbol": "wstETH",
+    "amountUSD": 1581712.154278622,
+    "type": "deposit"
+  },
+  {
+    "amount": 679.438289366779,
+    "timestamp": 1676982215,
+    "logIndex": 369,
+    "symbol": "WETH",
+    "amountUSD": 1136615.3283244504,
+    "type": "borrow"
+  },
+  {
+    "amount": 126.67250388141464,
+    "timestamp": 1676982611,
+    "logIndex": 68,
+    "symbol": "wstETH",
+    "amountUSD": 235146.06209513702,
+    "type": "deposit"
+  },
+  {
+    "amount": 101.02213601134696,
+    "timestamp": 1676982611,
+    "logIndex": 73,
+    "symbol": "WETH",
+    "amountUSD": 168997.40577998204,
+    "type": "borrow"
+  },
+  {
+    "amount": 961.9681080327239,
+    "timestamp": 1676983175,
+    "logIndex": 93,
+    "symbol": "wstETH",
+    "amountUSD": 1785730.9639727809,
+    "type": "deposit"
+  },
+  {
+    "amount": 767.1760897487958,
+    "timestamp": 1676983175,
+    "logIndex": 98,
+    "symbol": "WETH",
+    "amountUSD": 1283389.701138517,
+    "type": "borrow"
+  },
+  {
+    "amount": 1956.8084597604898,
+    "timestamp": 1676983223,
+    "logIndex": 114,
+    "symbol": "wstETH",
+    "amountUSD": 3632483.6842089184,
+    "type": "deposit"
+  },
+  {
+    "amount": 1174.0850758562938,
+    "timestamp": 1676983223,
+    "logIndex": 119,
+    "symbol": "WETH",
+    "amountUSD": 1964097.5712730975,
+    "type": "borrow"
+  },
+  {
+    "amount": 1056.8924664874673,
+    "timestamp": 1676983223,
+    "logIndex": 175,
+    "symbol": "wstETH",
+    "amountUSD": 1961941.9679680616,
+    "type": "deposit"
+  },
+  {
+    "amount": 1956.8084597604898,
+    "timestamp": 1676983223,
+    "logIndex": 180,
+    "symbol": "wstETH",
+    "amountUSD": 3632483.6842089184,
+    "type": "withdraw"
+  },
+  {
+    "amount": 2307.85061228597,
+    "timestamp": 1676983247,
+    "logIndex": 130,
+    "symbol": "WETH",
+    "amountUSD": 3860745.5930278916,
+    "type": "repay"
+  },
+  {
+    "amount": 2603.3708437069195,
+    "timestamp": 1676983247,
+    "logIndex": 135,
+    "symbol": "wstETH",
+    "amountUSD": 4832717.308912328,
+    "type": "withdraw"
+  },
+  {
+    "amount": 1992.2618522845896,
+    "timestamp": 1676999987,
+    "logIndex": 153,
+    "symbol": "WETH",
+    "amountUSD": 3313789.5654222174,
+    "type": "borrow"
+  },
+  {
+    "amount": 3772.9710070859287,
+    "timestamp": 1677002651,
+    "logIndex": 79,
+    "symbol": "wstETH",
+    "amountUSD": 7007204.647644989,
+    "type": "deposit"
+  },
+  {
+    "amount": 2263.782604251557,
+    "timestamp": 1677002651,
+    "logIndex": 84,
+    "symbol": "WETH",
+    "amountUSD": 3788692.8263536156,
+    "type": "borrow"
+  },
+  {
+    "amount": 2037.820622542091,
+    "timestamp": 1677002651,
+    "logIndex": 116,
+    "symbol": "wstETH",
+    "amountUSD": 3784663.627291566,
+    "type": "deposit"
+  },
+  {
+    "amount": 3772.9710070859287,
+    "timestamp": 1677002651,
+    "logIndex": 121,
+    "symbol": "wstETH",
+    "amountUSD": 7007204.647644989,
+    "type": "withdraw"
+  },
+  {
+    "amount": 1753.0013268315572,
+    "timestamp": 1677002687,
+    "logIndex": 106,
+    "symbol": "WETH",
+    "amountUSD": 2933843.355400685,
+    "type": "repay"
+  },
+  {
+    "amount": 1977.4731167423254,
+    "timestamp": 1677002687,
+    "logIndex": 111,
+    "symbol": "wstETH",
+    "amountUSD": 3672585.5534553975,
+    "type": "withdraw"
+  },
+  {
+    "amount": 3.2703936241164118,
+    "timestamp": 1677004175,
+    "logIndex": 65,
+    "symbol": "wstETH",
+    "amountUSD": 6107.7753937797515,
+    "type": "deposit"
+  },
+  {
+    "amount": 2.6017230084224283,
+    "timestamp": 1677004175,
+    "logIndex": 70,
+    "symbol": "WETH",
+    "amountUSD": 4378.621771484694,
+    "type": "borrow"
+  },
+  {
+    "amount": 1646.7373080523398,
+    "timestamp": 1677004607,
+    "logIndex": 148,
+    "symbol": "wstETH",
+    "amountUSD": 3075440.685785526,
+    "type": "deposit"
+  },
+  {
+    "amount": 1310.0430941726818,
+    "timestamp": 1677004607,
+    "logIndex": 153,
+    "symbol": "WETH",
+    "amountUSD": 2204763.2261997983,
+    "type": "borrow"
+  },
+  {
+    "amount": 1031.352150544612,
+    "timestamp": 1677004679,
+    "logIndex": 137,
+    "symbol": "WETH",
+    "amountUSD": 1735734.7288020656,
+    "type": "borrow"
+  },
+  {
+    "amount": 1718.9202509076867,
+    "timestamp": 1677004679,
+    "logIndex": 174,
+    "symbol": "wstETH",
+    "amountUSD": 3210249.290771604,
+    "type": "withdraw"
+  },
+  {
+    "amount": 1704.3898219740556,
+    "timestamp": 1677004715,
+    "logIndex": 109,
+    "symbol": "WETH",
+    "amountUSD": 2868436.938687676,
+    "type": "repay"
+  },
+  {
+    "amount": 1922.636909519457,
+    "timestamp": 1677004715,
+    "logIndex": 114,
+    "symbol": "wstETH",
+    "amountUSD": 3590709.7911825203,
+    "type": "withdraw"
+  },
+  {
+    "amount": 3508.2593198522027,
+    "timestamp": 1677005591,
+    "logIndex": 86,
+    "symbol": "wstETH",
+    "amountUSD": 6519105.290612903,
+    "type": "deposit"
+  },
+  {
+    "amount": 2792.1634449782227,
+    "timestamp": 1677005591,
+    "logIndex": 91,
+    "symbol": "WETH",
+    "amountUSD": 4675526.132651804,
+    "type": "borrow"
+  },
+  {
+    "amount": 6280.597833190804,
+    "timestamp": 1677005663,
+    "logIndex": 220,
+    "symbol": "WETH",
+    "amountUSD": 10516970.040050408,
+    "type": "repay"
+  },
+  {
+    "amount": 7084.828278283616,
+    "timestamp": 1677005663,
+    "logIndex": 225,
+    "symbol": "wstETH",
+    "amountUSD": 13165144.677500179,
+    "type": "withdraw"
+  },
+  {
+    "amount": 67.35036753540777,
+    "timestamp": 1677023687,
+    "logIndex": 755,
+    "symbol": "wstETH",
+    "amountUSD": 123401.43612650527,
+    "type": "deposit"
+  },
+  {
+    "amount": 53.688198318273166,
+    "timestamp": 1677023687,
+    "logIndex": 760,
+    "symbol": "WETH",
+    "amountUSD": 88644.62719385947,
+    "type": "borrow"
+  },
+  {
+    "amount": 141.5051721266169,
+    "timestamp": 1677026951,
+    "logIndex": 229,
+    "symbol": "wstETH",
+    "amountUSD": 260315.858616779,
+    "type": "deposit"
+  },
+  {
+    "amount": 112.84183382342859,
+    "timestamp": 1677026951,
+    "logIndex": 234,
+    "symbol": "WETH",
+    "amountUSD": 187064.67843912696,
+    "type": "borrow"
+  },
+  {
+    "amount": 370.6129269333041,
+    "timestamp": 1677026975,
+    "logIndex": 151,
+    "symbol": "WETH",
+    "amountUSD": 614387.2857529542,
+    "type": "repay"
+  },
+  {
+    "amount": 418.06990588673835,
+    "timestamp": 1677026975,
+    "logIndex": 156,
+    "symbol": "wstETH",
+    "amountUSD": 769090.0966882148,
+    "type": "withdraw"
+  },
+  {
+    "amount": 975.3408237992651,
+    "timestamp": 1677037619,
+    "logIndex": 140,
+    "symbol": "wstETH",
+    "amountUSD": 1779420.3926381175,
+    "type": "deposit"
+  },
+  {
+    "amount": 777.8661006548753,
+    "timestamp": 1677037619,
+    "logIndex": 145,
+    "symbol": "WETH",
+    "amountUSD": 1278852.1862766119,
+    "type": "borrow"
+  },
+  {
+    "amount": 41.400047273905244,
+    "timestamp": 1677044411,
+    "logIndex": 52,
+    "symbol": "WETH",
+    "amountUSD": 68007.82536480727,
+    "type": "borrow"
+  },
+  {
+    "amount": 205.95417063460974,
+    "timestamp": 1677050627,
+    "logIndex": 150,
+    "symbol": "wstETH",
+    "amountUSD": 373707.82347583,
+    "type": "deposit"
+  },
+  {
+    "amount": 164.28806248134742,
+    "timestamp": 1677050627,
+    "logIndex": 155,
+    "symbol": "WETH",
+    "amountUSD": 268633.9824857504,
+    "type": "borrow"
+  },
+  {
+    "amount": 323.212887696646,
+    "timestamp": 1677052223,
+    "logIndex": 119,
+    "symbol": "wstETH",
+    "amountUSD": 589422.7292527511,
+    "type": "deposit"
+  },
+  {
+    "amount": 257.82447787314226,
+    "timestamp": 1677052223,
+    "logIndex": 124,
+    "symbol": "WETH",
+    "amountUSD": 423697.303907764,
+    "type": "borrow"
+  },
+  {
+    "amount": 283.6265175704549,
+    "timestamp": 1677052271,
+    "logIndex": 103,
+    "symbol": "wstETH",
+    "amountUSD": 517231.5908137151,
+    "type": "withdraw"
+  },
+  {
+    "amount": 162.92142515977014,
+    "timestamp": 1677053999,
+    "logIndex": 77,
+    "symbol": "wstETH",
+    "amountUSD": 295618.6493975651,
+    "type": "deposit"
+  },
+  {
+    "amount": 129.96142638358637,
+    "timestamp": 1677053999,
+    "logIndex": 82,
+    "symbol": "WETH",
+    "amountUSD": 212501.22659445167,
+    "type": "borrow"
+  },
+  {
+    "amount": 157.35188902983035,
+    "timestamp": 1677054443,
+    "logIndex": 429,
+    "symbol": "wstETH",
+    "amountUSD": 285512.8039147556,
+    "type": "deposit"
+  },
+  {
+    "amount": 125.51864875293472,
+    "timestamp": 1677054443,
+    "logIndex": 434,
+    "symbol": "WETH",
+    "amountUSD": 205236.79650722462,
+    "type": "borrow"
+  },
+  {
+    "amount": 185.01337049903762,
+    "timestamp": 1677057275,
+    "logIndex": 154,
+    "symbol": "wstETH",
+    "amountUSD": 334791.57531931513,
+    "type": "deposit"
+  },
+  {
+    "amount": 147.58455984684124,
+    "timestamp": 1677057275,
+    "logIndex": 159,
+    "symbol": "WETH",
+    "amountUSD": 240660.97628264935,
+    "type": "borrow"
+  },
+  {
+    "amount": 895.3227294651714,
+    "timestamp": 1677057335,
+    "logIndex": 113,
+    "symbol": "WETH",
+    "amountUSD": 1459971.4386433237,
+    "type": "repay"
+  },
+  {
+    "amount": 1009.9687896561759,
+    "timestamp": 1677057335,
+    "logIndex": 118,
+    "symbol": "wstETH",
+    "amountUSD": 1827592.4664271334,
+    "type": "withdraw"
+  },
+  {
+    "amount": 327.00676809761273,
+    "timestamp": 1677057563,
+    "logIndex": 91,
+    "symbol": "wstETH",
+    "amountUSD": 591736.2120163484,
+    "type": "deposit"
+  },
+  {
+    "amount": 260.85226153317893,
+    "timestamp": 1677057563,
+    "logIndex": 96,
+    "symbol": "WETH",
+    "amountUSD": 425362.65305300127,
+    "type": "borrow"
+  },
+  {
+    "amount": 98.07921115009259,
+    "timestamp": 1677059651,
+    "logIndex": 128,
+    "symbol": "wstETH",
+    "amountUSD": 178368.55507971818,
+    "type": "deposit"
+  },
+  {
+    "amount": 78.23765423479432,
+    "timestamp": 1677059651,
+    "logIndex": 133,
+    "symbol": "WETH",
+    "amountUSD": 128218.44177880527,
+    "type": "borrow"
+  },
+  {
+    "amount": 971.1062952867853,
+    "timestamp": 1677065699,
+    "logIndex": 107,
+    "symbol": "wstETH",
+    "amountUSD": 1771013.9966623185,
+    "type": "deposit"
+  },
+  {
+    "amount": 774.6549311718488,
+    "timestamp": 1677065699,
+    "logIndex": 112,
+    "symbol": "WETH",
+    "amountUSD": 1273083.4069864398,
+    "type": "borrow"
+  },
+  {
+    "amount": 2474.0143202087133,
+    "timestamp": 1677065771,
+    "logIndex": 170,
+    "symbol": "WETH",
+    "amountUSD": 4065844.6141174035,
+    "type": "repay"
+  },
+  {
+    "amount": 2790.8118115864736,
+    "timestamp": 1677065771,
+    "logIndex": 175,
+    "symbol": "wstETH",
+    "amountUSD": 5089624.899311909,
+    "type": "withdraw"
+  },
+  {
+    "amount": 727.614102100046,
+    "timestamp": 1677088991,
+    "logIndex": 68,
+    "symbol": "wstETH",
+    "amountUSD": 1299466.9833044203,
+    "type": "deposit"
+  },
+  {
+    "amount": 580.4345453961009,
+    "timestamp": 1677088991,
+    "logIndex": 73,
+    "symbol": "WETH",
+    "amountUSD": 934431.4750720931,
+    "type": "borrow"
+  },
+  {
+    "amount": 1800.232701918397,
+    "timestamp": 1677107231,
+    "logIndex": 198,
+    "symbol": "WETH",
+    "amountUSD": 2951535.5217762697,
+    "type": "borrow"
+  },
+  {
+    "amount": 33.77649731526209,
+    "timestamp": 1677149687,
+    "logIndex": 203,
+    "symbol": "wstETH",
+    "amountUSD": 62377.93027542257,
+    "type": "deposit"
+  },
+  {
+    "amount": 26.945993224743997,
+    "timestamp": 1677149687,
+    "logIndex": 208,
+    "symbol": "WETH",
+    "amountUSD": 44858.07276096032,
+    "type": "borrow"
+  },
+  {
+    "amount": 670.8014724518109,
+    "timestamp": 1677161711,
+    "logIndex": 371,
+    "symbol": "WETH",
+    "amountUSD": 1112820.4679915633,
+    "type": "borrow"
+  },
+  {
+    "amount": 115.48652168242008,
+    "timestamp": 1677255407,
+    "logIndex": 130,
+    "symbol": "wstETH",
+    "amountUSD": 203463.2330971787,
+    "type": "deposit"
+  },
+  {
+    "amount": 92.18234768235567,
+    "timestamp": 1677255407,
+    "logIndex": 135,
+    "symbol": "WETH",
+    "amountUSD": 146302.6766721677,
+    "type": "borrow"
+  },
+  {
+    "amount": 6293.351324636374,
+    "timestamp": 1677259139,
+    "logIndex": 130,
+    "symbol": "wstETH",
+    "amountUSD": 11150497.584518246,
+    "type": "deposit"
+  },
+  {
+    "amount": 5023.427342793327,
+    "timestamp": 1677259139,
+    "logIndex": 135,
+    "symbol": "WETH",
+    "amountUSD": 8017930.0575375,
+    "type": "borrow"
+  },
+  {
+    "amount": 7392.640702970265,
+    "timestamp": 1677264767,
+    "logIndex": 61,
+    "symbol": "wstETH",
+    "amountUSD": 13061892.909489278,
+    "type": "deposit"
+  },
+  {
+    "amount": 4435.584421782159,
+    "timestamp": 1677264767,
+    "logIndex": 66,
+    "symbol": "WETH",
+    "amountUSD": 7060041.214306397,
+    "type": "borrow"
+  },
+  {
+    "amount": 3991.183556609118,
+    "timestamp": 1677264767,
+    "logIndex": 110,
+    "symbol": "wstETH",
+    "amountUSD": 7051933.712617297,
+    "type": "deposit"
+  },
+  {
+    "amount": 7392.640702970265,
+    "timestamp": 1677264767,
+    "logIndex": 115,
+    "symbol": "wstETH",
+    "amountUSD": 13061892.909489278,
+    "type": "withdraw"
+  },
+  {
+    "amount": 12799.294610210924,
+    "timestamp": 1677264803,
+    "logIndex": 99,
+    "symbol": "WETH",
+    "amountUSD": 20372410.683558125,
+    "type": "repay"
+  },
+  {
+    "amount": 14432.2484444553,
+    "timestamp": 1677264803,
+    "logIndex": 104,
+    "symbol": "wstETH",
+    "amountUSD": 25500019.70863761,
+    "type": "withdraw"
+  },
+  {
+    "amount": 326.33791720884346,
+    "timestamp": 1677269831,
+    "logIndex": 111,
+    "symbol": "wstETH",
+    "amountUSD": 585022.0750403877,
+    "type": "deposit"
+  },
+  {
+    "amount": 260.5962303465812,
+    "timestamp": 1677269831,
+    "logIndex": 116,
+    "symbol": "WETH",
+    "amountUSD": 420845.52431260026,
+    "type": "borrow"
+  },
+  {
+    "amount": 666.9714752402865,
+    "timestamp": 1677309779,
+    "logIndex": 401,
+    "symbol": "wstETH",
+    "amountUSD": 1185017.703740163,
+    "type": "deposit"
+  },
+  {
+    "amount": 532.8216294089914,
+    "timestamp": 1677309779,
+    "logIndex": 406,
+    "symbol": "WETH",
+    "amountUSD": 852804.1232687774,
+    "type": "borrow"
+  },
+  {
+    "amount": 4.510515621123781,
+    "timestamp": 1677326747,
+    "logIndex": 99,
+    "symbol": "wstETH",
+    "amountUSD": 8006.770475273216,
+    "type": "deposit"
+  },
+  {
+    "amount": 3.603367147174911,
+    "timestamp": 1677326747,
+    "logIndex": 104,
+    "symbol": "WETH",
+    "amountUSD": 5762.216472390343,
+    "type": "borrow"
+  },
+  {
+    "amount": 1466.388334624536,
+    "timestamp": 1677327095,
+    "logIndex": 63,
+    "symbol": "WETH",
+    "amountUSD": 2344930.913664788,
+    "type": "borrow"
+  },
+  {
+    "amount": 2443.98055770756,
+    "timestamp": 1677327095,
+    "logIndex": 112,
+    "symbol": "wstETH",
+    "amountUSD": 4338393.437759397,
+    "type": "withdraw"
+  },
+  {
+    "amount": 511.2515783144755,
+    "timestamp": 1677347447,
+    "logIndex": 223,
+    "symbol": "wstETH",
+    "amountUSD": 906460.8061307007,
+    "type": "deposit"
+  },
+  {
+    "amount": 408.43877867800467,
+    "timestamp": 1677347447,
+    "logIndex": 228,
+    "symbol": "WETH",
+    "amountUSD": 652133.7759762362,
+    "type": "borrow"
+  },
+  {
+    "amount": 881.7710711330226,
+    "timestamp": 1677347507,
+    "logIndex": 159,
+    "symbol": "WETH",
+    "amountUSD": 1407879.7807245406,
+    "type": "repay"
+  },
+  {
+    "amount": 994.1450407081933,
+    "timestamp": 1677347507,
+    "logIndex": 164,
+    "symbol": "wstETH",
+    "amountUSD": 1762642.0205530971,
+    "type": "withdraw"
+  },
+  {
+    "amount": 43.648980498080746,
+    "timestamp": 1677369503,
+    "logIndex": 82,
+    "symbol": "wstETH",
+    "amountUSD": 77309.22985525252,
+    "type": "deposit"
+  },
+  {
+    "amount": 34.871913042901966,
+    "timestamp": 1677369503,
+    "logIndex": 87,
+    "symbol": "WETH",
+    "amountUSD": 55619.66540953879,
+    "type": "borrow"
+  },
+  {
+    "amount": 242.27997923858945,
+    "timestamp": 1677388187,
+    "logIndex": 102,
+    "symbol": "wstETH",
+    "amountUSD": 430972.38114550273,
+    "type": "deposit"
+  },
+  {
+    "amount": 193.58736656491072,
+    "timestamp": 1677388187,
+    "logIndex": 107,
+    "symbol": "WETH",
+    "amountUSD": 310101.7948793335,
+    "type": "borrow"
+  },
+  {
+    "amount": 170.62081892570527,
+    "timestamp": 1677391271,
+    "logIndex": 272,
+    "symbol": "wstETH",
+    "amountUSD": 303317.77327118523,
+    "type": "deposit"
+  },
+  {
+    "amount": 136.32704474991164,
+    "timestamp": 1677391271,
+    "logIndex": 277,
+    "symbol": "WETH",
+    "amountUSD": 218244.45270993683,
+    "type": "borrow"
+  },
+  {
+    "amount": 804.5655117681856,
+    "timestamp": 1677391379,
+    "logIndex": 41,
+    "symbol": "WETH",
+    "amountUSD": 1288019.9971125077,
+    "type": "repay"
+  },
+  {
+    "amount": 907.100311673217,
+    "timestamp": 1677391379,
+    "logIndex": 46,
+    "symbol": "wstETH",
+    "amountUSD": 1612579.5691446334,
+    "type": "withdraw"
+  },
+  {
+    "amount": 170.94190956932812,
+    "timestamp": 1677428159,
+    "logIndex": 471,
+    "symbol": "wstETH",
+    "amountUSD": 304452.68594060163,
+    "type": "deposit"
+  },
+  {
+    "amount": 136.59711985688395,
+    "timestamp": 1677428159,
+    "logIndex": 476,
+    "symbol": "WETH",
+    "amountUSD": 219153.68715598746,
+    "type": "borrow"
+  },
+  {
+    "amount": 9.354027770994426,
+    "timestamp": 1677430751,
+    "logIndex": 99,
+    "symbol": "wstETH",
+    "amountUSD": 16647.01560236261,
+    "type": "deposit"
+  },
+  {
+    "amount": 7.47468380447027,
+    "timestamp": 1677430751,
+    "logIndex": 104,
+    "symbol": "WETH",
+    "amountUSD": 11983.027007908237,
+    "type": "borrow"
+  },
+  {
+    "amount": 6.653584683086463,
+    "timestamp": 1677474095,
+    "logIndex": 111,
+    "symbol": "wstETH",
+    "amountUSD": 12084.849104413383,
+    "type": "deposit"
+  },
+  {
+    "amount": 5.317358826698693,
+    "timestamp": 1677474095,
+    "logIndex": 116,
+    "symbol": "WETH",
+    "amountUSD": 8699.964740150106,
+    "type": "borrow"
+  },
+  {
+    "amount": 2337.5265069556335,
+    "timestamp": 1677476183,
+    "logIndex": 196,
+    "symbol": "wstETH",
+    "amountUSD": 4245696.922738599,
+    "type": "deposit"
+  },
+  {
+    "amount": 1868.0992614545678,
+    "timestamp": 1677476183,
+    "logIndex": 201,
+    "symbol": "WETH",
+    "amountUSD": 3056527.96861412,
+    "type": "borrow"
+  },
+  {
+    "amount": 1164.6471347283218,
+    "timestamp": 1677486875,
+    "logIndex": 56,
+    "symbol": "wstETH",
+    "amountUSD": 2115961.7600537785,
+    "type": "deposit"
+  },
+  {
+    "amount": 930.7651236922134,
+    "timestamp": 1677486875,
+    "logIndex": 61,
+    "symbol": "WETH",
+    "amountUSD": 1523314.354789636,
+    "type": "borrow"
+  },
+  {
+    "amount": 232.92338371463484,
+    "timestamp": 1677487283,
+    "logIndex": 102,
+    "symbol": "wstETH",
+    "amountUSD": 423181.37250856624,
+    "type": "deposit"
+  },
+  {
+    "amount": 186.14829651948742,
+    "timestamp": 1677487283,
+    "logIndex": 107,
+    "symbol": "WETH",
+    "amountUSD": 304655.1326320878,
+    "type": "borrow"
+  },
+  {
+    "amount": 3242.467972713669,
+    "timestamp": 1677499775,
+    "logIndex": 108,
+    "symbol": "wstETH",
+    "amountUSD": 5906347.78279967,
+    "type": "deposit"
+  },
+  {
+    "amount": 1945.4807836282014,
+    "timestamp": 1677499775,
+    "logIndex": 113,
+    "symbol": "WETH",
+    "amountUSD": 3192318.7373947855,
+    "type": "borrow"
+  },
+  {
+    "amount": 1750.1436873159296,
+    "timestamp": 1677499775,
+    "logIndex": 157,
+    "symbol": "wstETH",
+    "amountUSD": 3187990.5597057072,
+    "type": "deposit"
+  },
+  {
+    "amount": 3242.467972713669,
+    "timestamp": 1677499775,
+    "logIndex": 162,
+    "symbol": "wstETH",
+    "amountUSD": 5906347.78279967,
+    "type": "withdraw"
+  },
+  {
+    "amount": 4549.11318851013,
+    "timestamp": 1677499811,
+    "logIndex": 98,
+    "symbol": "WETH",
+    "amountUSD": 7464591.473953079,
+    "type": "repay"
+  },
+  {
+    "amount": 5128.266805544172,
+    "timestamp": 1677499811,
+    "logIndex": 103,
+    "symbol": "wstETH",
+    "amountUSD": 9341442.23826562,
+    "type": "withdraw"
+  }
+]

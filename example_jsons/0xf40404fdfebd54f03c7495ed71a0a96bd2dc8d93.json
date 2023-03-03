@@ -1,0 +1,74 @@
+[
+  {
+    "amount": 20,
+    "amountUSD": 32770.9,
+    "timestamp": 1675046555,
+    "logIndex": 264,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 15000,
+    "amountUSD": 15003.0273,
+    "timestamp": 1675046639,
+    "logIndex": 102,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 12,
+    "amountUSD": 20061.96,
+    "timestamp": 1675308767,
+    "logIndex": 269,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 9000,
+    "amountUSD": 9000,
+    "timestamp": 1675308863,
+    "logIndex": 138,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 12,
+    "amountUSD": 20630.8182,
+    "timestamp": 1676570015,
+    "logIndex": 518,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 15000,
+    "amountUSD": 14999.7,
+    "timestamp": 1676570123,
+    "logIndex": 221,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 3500,
+    "amountUSD": 3499.93,
+    "timestamp": 1676570279,
+    "logIndex": 216,
+    "symbol": "USDC",
+    "type": "repay"
+  },
+  {
+    "amount": 20000,
+    "amountUSD": 19999.4472,
+    "timestamp": 1677016067,
+    "logIndex": 332,
+    "symbol": "USDC",
+    "type": "repay"
+  },
+  {
+    "amount": 6500,
+    "amountUSD": 6499.3175,
+    "timestamp": 1677080111,
+    "logIndex": 258,
+    "symbol": "USDC",
+    "type": "repay"
+  }
+]
