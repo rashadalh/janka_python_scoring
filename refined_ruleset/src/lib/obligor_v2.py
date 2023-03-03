@@ -153,7 +153,10 @@ class Obligor:
     def _fetch_loan(self, protocol_name: str = "", loan_num: int = 0) -> Loan:
         """Get the loan."""
         loan_id = self._get_loan_id(protocol_name=protocol_name, loan_num=loan_num)
-        return self._outstanding_loans.get(loan_id, None)
+        if loan_id not in self._outstanding_loans.keys():
+            # return new / empty loan object
+            self._outstanding_loans[loan_id] = Loan(protocol_name=protocol_name)
+        return self._outstanding_loans[loan_id]
 
     def _pop_loan(self, protocol_name: str = "", loan_num: int = 0) -> Tuple[Loan, str]:
         """Get and remove the loan."""
@@ -269,8 +272,19 @@ class Obligor:
         if loan is None:
             raise Exception("Loan does not exist! ")
         
-        # update the collateral amt
-        loan.collateral_amts[collat_name] -= amt_to_liq 
+        #if aave in protocol name, search
+        #for the correct type of collat
+        #as it liquidates aEth[...]
+        if 'aave' in protocol_name:
+            for name in loan.collateral_amts.keys():
+                if collat_name in name:
+                    # update the collateral amt
+                    loan.collateral_amts[name] -= amt_to_liq
+                    return True
+            print(loan.collateral_amts.keys())
+            raise Exception("Can't liqudiate " + collat_name)
+        else:
+            loan.collateral_amts[collat_name] -= amt_to_liq
 
     def withdraw_collateral(
         self, withdraw_amt: float, collat_name: str, protocol_name: str = "", loan_num: int = ""
