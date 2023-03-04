@@ -23,21 +23,16 @@ class Loan:
         collateral_names: List[str] = [],
         protocol_name: str = "",
     ) -> None:
-        self.amounts = {}
         self.outstanding_amounts = {}
         self.status = "outstanding"
         self.collateral_amts = {}
         self.protocol_name: str = protocol_name
 
         for name, amt in zip(borrow_names, amounts):
-            self.amounts[name] = amt
             self.outstanding_amounts[name] = amt
 
         for name, amt in zip(collateral_names, collateral_amts):
             self.collateral_amt[name] = amt
-
-    def get_total_amount(self) -> float:
-        return sum([amt for amt in self.amounts.values()])
 
     def get_total_outstanding_amt(self) -> float:
         return sum([amt for amt in self.outstanding_amounts.values()])
@@ -124,22 +119,11 @@ class Obligor:
     ) -> None:
         """Add loan to borrower's collection of loans."""
 
-        loan_id = "loan_{0}_{1}".format(protocol_name, 0)
+        loan = self._fetch_loan(protocol_name=protocol_name,loan_num=0)
 
-        new_loan = self._outstanding_loans.get(
-            loan_id,
-            Loan(
-                amounts=[0],
-                borrow_names=[borrow_name],
-                protocol_name=protocol_name,
-            ),
-        )
+        loan.outstanding_amounts[borrow_name] = loan.outstanding_amounts.get(borrow_name, 0) + amount
 
-        new_loan.amounts[borrow_name] = amount
-        new_loan.outstanding_amounts[borrow_name] = amount
-
-        new_loan.status = "outstanding"
-        self._outstanding_loans[loan_id] = new_loan
+        loan.status = "outstanding"
 
         self._inc_origination()  # increment following scheme for new debt
 
@@ -208,20 +192,21 @@ class Obligor:
         # if loan is fully paid off, settle loan, increment alpha by 1
         if loan.status == "outstanding":
             # compute amount remaining
-            amount_remaining = loan.outstanding_amounts.get(borrow_name, 0) - amount
+            original_amount = loan.outstanding_amounts.get(borrow_name, 0)
+            amount_remaining = original_amount - amount
 
             # set new outstanding amount
             loan.outstanding_amounts[borrow_name] = amount_remaining
 
             # give repay benefit if at least half as been returned
             # note this is arbitrary and should be fine tuned...
-            if amount_remaining < 0.5 * loan.amounts[borrow_name]:
+            
+            #print(amount, amount_remaining, original_amount)
+            #print(loan.outstanding_amounts)
+            if amount_remaining < 0.5 * original_amount:
 
                 # give the repay benefit
                 self._inc_repay()
-
-                # set the loan's new 'amount' to the outstanding debt...
-                loan.amounts[borrow_name] = amount_remaining
 
             if amount_remaining <= 0:
                 # settle loan
@@ -245,18 +230,18 @@ class Obligor:
 
         loan = self._fetch_loan(protocol_name=protocol_name, loan_num=loan_num)
 
-        if not isinstance(loan, type(None)):
-            original_collat_amt = loan.collateral_amts.get(collat_name, 0)
-            loan.collateral_amts[collat_name] = original_collat_amt + amt_colat_to_add
+            
+        original_collat_amt = loan.collateral_amts.get(collat_name, 0)
+        loan.collateral_amts[collat_name] = original_collat_amt + amt_colat_to_add
 
-            # 0.5 is just a guess at a reasonable parameter. This would need to be optimized.
-            if amt_colat_to_add > 0.5 * original_collat_amt:
+        # 0.5 is just a guess at a reasonable parameter. This would need to be optimized.
+        if amt_colat_to_add > 0.5 * original_collat_amt:
 
-                # award repay benefit for providing substantial colat to reduce risk
+            # award repay benefit for providing substantial colat to reduce risk
+            # only if the loan is outstanding, adding supply with no debt
+            # should not give benefit...
+            if loan.get_total_outstanding_amt() > 0:
                 self._inc_repay()
-
-            return True
-        return False
 
     def add_liquidation(
         self,
@@ -292,16 +277,12 @@ class Obligor:
         withdraw_amt: float,
         collat_name: str,
         protocol_name: str = "",
-        loan_num: int = "",
+        loan_num: int = 0,
     ) -> bool:
         """Remove collateral from loan."""
         loan = self._fetch_loan(protocol_name=protocol_name, loan_num=loan_num)
-        if not isinstance(loan, type(None)):
-            loan.collateral_amts[collat_name] -= withdraw_amt
-            return True
-        else:
-            return False
-
+        loan.collateral_amts[collat_name] = max(loan.collateral_amts[collat_name]- withdraw_amt,0)
+        
     def get_loans(self) -> Dict[str, Dict[str, object]]:
         return self._outstanding_loans
 

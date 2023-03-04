@@ -53,10 +53,10 @@ def compute_score(input_data: dict, start_alpha: int, start_beta: int, migration
                 while first_upper < len(liq_symbol) and (not liq_symbol[first_upper].isupper()):
                     first_upper += 1
                 liq_symbol = liq_symbol[1:first_upper].upper()
-                print(event.symbol, liq_symbol)
             obl.add_liquidation(amt_to_liq=event.amount, collat_name=liq_symbol, protocol_name=protocol_name, loan_num=0)
         else:
             pass
+        #print(ix, event.symbol, event.type, obl.get_score())
 
     return obl
 
