@@ -1,0 +1,162 @@
+[
+  {
+    "amount": 500,
+    "amountUSD": 500.05,
+    "timestamp": 1677641207,
+    "logIndex": 142,
+    "symbol": "USDT",
+    "type": "deposit"
+  },
+  {
+    "amount": 250,
+    "amountUSD": 249.9653225,
+    "timestamp": 1677641279,
+    "logIndex": 154,
+    "symbol": "USDC",
+    "type": "deposit"
+  },
+  {
+    "amount": 10,
+    "amountUSD": 9.9939,
+    "timestamp": 1677641351,
+    "logIndex": 346,
+    "symbol": "DAI",
+    "type": "borrow"
+  },
+  {
+    "amount": 10,
+    "amountUSD": 9.9939,
+    "timestamp": 1677641399,
+    "logIndex": 180,
+    "symbol": "DAI",
+    "type": "borrow"
+  },
+  {
+    "amount": 0.001,
+    "amountUSD": 1.63579389724,
+    "timestamp": 1677645251,
+    "logIndex": 227,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 0.3,
+    "amountUSD": 2.20167,
+    "timestamp": 1677645719,
+    "logIndex": 2036,
+    "symbol": "LINK",
+    "type": "deposit"
+  },
+  {
+    "amount": 2,
+    "amountUSD": 1.99959998,
+    "timestamp": 1677645815,
+    "logIndex": 228,
+    "symbol": "DAI",
+    "type": "deposit"
+  },
+  {
+    "amount": 0.001,
+    "amountUSD": 1.65721856704,
+    "timestamp": 1677645887,
+    "logIndex": 239,
+    "symbol": "cbETH",
+    "type": "borrow"
+  },
+  {
+    "amount": 0.001,
+    "amountUSD": 1.73467014838,
+    "timestamp": 1677645947,
+    "logIndex": 51,
+    "symbol": "rETH",
+    "type": "borrow"
+  },
+  {
+    "amount": 0.0001,
+    "amountUSD": 2.341562986462,
+    "timestamp": 1677646019,
+    "logIndex": 243,
+    "symbol": "WBTC",
+    "type": "borrow"
+  },
+  {
+    "amount": 10,
+    "amountUSD": 10.0332186,
+    "timestamp": 1677646151,
+    "logIndex": 456,
+    "symbol": "LUSD",
+    "type": "borrow"
+  },
+  {
+    "amount": 10,
+    "amountUSD": 10.0010966,
+    "timestamp": 1677746531,
+    "logIndex": 47,
+    "symbol": "USDT",
+    "type": "borrow"
+  },
+  {
+    "amount": 0.002,
+    "amountUSD": 3.65063668092,
+    "timestamp": 1677746579,
+    "logIndex": 168,
+    "symbol": "wstETH",
+    "type": "borrow"
+  },
+  {
+    "amount": 2,
+    "amountUSD": 14.71011344,
+    "timestamp": 1677746783,
+    "logIndex": 177,
+    "symbol": "LINK",
+    "type": "borrow"
+  },
+  {
+    "amount": 0.001,
+    "amountUSD": 1.6443713,
+    "timestamp": 1677746891,
+    "logIndex": 548,
+    "symbol": "WETH",
+    "type": "borrow"
+  },
+  {
+    "amount": 10,
+    "amountUSD": 10.0208063,
+    "timestamp": 1677746987,
+    "logIndex": 254,
+    "symbol": "LUSD",
+    "type": "deposit"
+  },
+  {
+    "amount": 0.002,
+    "amountUSD": 3.65063668092,
+    "timestamp": 1677747035,
+    "logIndex": 242,
+    "symbol": "wstETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 0.0001,
+    "amountUSD": 2.340169537537,
+    "timestamp": 1677747107,
+    "logIndex": 131,
+    "symbol": "WBTC",
+    "type": "deposit"
+  },
+  {
+    "amount": 0.001,
+    "amountUSD": 1.67236782343,
+    "timestamp": 1677747191,
+    "logIndex": 166,
+    "symbol": "cbETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 0.001,
+    "amountUSD": 1.74790451498,
+    "timestamp": 1677747995,
+    "logIndex": 144,
+    "symbol": "rETH",
+    "type": "deposit"
+  }
+]

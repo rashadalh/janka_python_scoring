@@ -1,0 +1,66 @@
+[
+  {
+    "amount": 42.22,
+    "amountUSD": 69446.9791821596,
+    "timestamp": 1675891079,
+    "logIndex": 315,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 2.67856672,
+    "amountUSD": 60800.09222316917,
+    "timestamp": 1675942907,
+    "logIndex": 657,
+    "symbol": "WBTC",
+    "type": "deposit"
+  },
+  {
+    "amount": 100000,
+    "amountUSD": 100028.427,
+    "timestamp": 1676892635,
+    "logIndex": 282,
+    "symbol": "USDT",
+    "type": "borrow"
+  },
+  {
+    "amount": 4.02331319,
+    "amountUSD": 100262.00988425674,
+    "timestamp": 1676892983,
+    "logIndex": 254,
+    "symbol": "WBTC",
+    "type": "deposit"
+  },
+  {
+    "amount": 4.1,
+    "amountUSD": 100332.891958423,
+    "timestamp": 1677011543,
+    "logIndex": 198,
+    "symbol": "WBTC",
+    "type": "withdraw"
+  },
+  {
+    "amount": 99847.421738,
+    "amountUSD": 99859.7449067909,
+    "timestamp": 1677011891,
+    "logIndex": 269,
+    "symbol": "USDT",
+    "type": "repay"
+  },
+  {
+    "amount": 2.60197107,
+    "amountUSD": 63673.971279329824,
+    "timestamp": 1677011975,
+    "logIndex": 351,
+    "symbol": "WBTC",
+    "type": "withdraw"
+  },
+  {
+    "amount": 167.821458,
+    "amountUSD": 167.84217052434636,
+    "timestamp": 1677012215,
+    "logIndex": 458,
+    "symbol": "USDT",
+    "type": "repay"
+  }
+]

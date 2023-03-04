@@ -1,0 +1,26 @@
+[
+  {
+    "amount": 0.7,
+    "amountUSD": 1073.604952749,
+    "timestamp": 1676176763,
+    "logIndex": 182,
+    "symbol": "WETH",
+    "type": "deposit"
+  },
+  {
+    "amount": 858.884054,
+    "amountUSD": 858.884054,
+    "timestamp": 1676176979,
+    "logIndex": 123,
+    "symbol": "USDC",
+    "type": "borrow"
+  },
+  {
+    "amount": 302216490465.4845,
+    "amountUSD": 448.8970734687009,
+    "timestamp": 1676282087,
+    "logIndex": 386,
+    "symbol": "aEthUSDC",
+    "type": "liquidation"
+  }
+]
