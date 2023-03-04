@@ -36,13 +36,13 @@ class Loan:
         for name, amt in zip(collateral_names, collateral_amts):
             self.collateral_amt[name] = amt
 
-    def get_total_amount(self)->float:
+    def get_total_amount(self) -> float:
         return sum([amt for amt in self.amounts.values()])
-    
-    def get_total_outstanding_amt(self)->float:
+
+    def get_total_outstanding_amt(self) -> float:
         return sum([amt for amt in self.outstanding_amounts.values()])
-    
-    def get_collat_amt(self, collat_name: str)->float:
+
+    def get_collat_amt(self, collat_name: str) -> float:
         return self.collateral_amts.get(collat_name, 0)
 
 
@@ -89,19 +89,19 @@ class Obligor:
     def _inc_origination(self) -> None:
         """Increments beta for origination."""
         sum_ab: int = self._sum_ab()
-        self._beta = (self._beta + self._c0 * log(1 + self._xi0 / sum_ab))
+        self._beta = self._beta + self._c0 * log(1 + self._xi0 / sum_ab)
         self._stickness()
 
     def _inc_repay(self) -> None:
         """Increments alpha for repayment."""
         sum_ab: int = self._sum_ab()
-        self._alpha = (self._alpha + self._c1 * log(1 + self._xi1 / sum_ab))
+        self._alpha = self._alpha + self._c1 * log(1 + self._xi1 / sum_ab)
         self._stickness()
 
     def _inc_liquidation(self) -> None:
         """Increments liquidation."""
         sum_ab: int = self._sum_ab()
-        self._beta = (self._beta + self._c2 * log(1 + self._xi2 / sum_ab))
+        self._beta = self._beta + self._c2 * log(1 + self._xi2 / sum_ab)
         self._stickness()
 
     def _stickness(self) -> None:
@@ -109,8 +109,8 @@ class Obligor:
         sumab = self._sum_ab()
         diff = sumab - self._sum_ab_cap
         if diff > 0:
-            self._alpha = max(self._alpha-0.5*diff,0)
-            self._beta = max(self._beta-0.5*diff,0)
+            self._alpha = max(self._alpha - 0.5 * diff, 0)
+            self._beta = max(self._beta - 0.5 * diff, 0)
 
             # ensure can't exceed cap
             self._alpha = min(self._alpha, self._sum_ab_cap)
@@ -142,10 +142,10 @@ class Obligor:
         self._outstanding_loans[loan_id] = new_loan
 
         self._inc_origination()  # increment following scheme for new debt
-    
+
     @staticmethod
     def _compute_score(proba: float):
-        return round(100*proba)
+        return round(100 * proba)
 
     def _get_loan_id(self, protocol_name: str, loan_num: int) -> str:
         return "loan_{0}_{1}".format(protocol_name, str(loan_num))
@@ -165,11 +165,9 @@ class Obligor:
             return self._outstanding_loans.pop(loan_id), loan_id
         return None, None
 
-    def _settle_loan(
-        self, protocol_name: str = "", loan_num: int = 0
-    )->bool:
+    def _settle_loan(self, protocol_name: str = "", loan_num: int = 0) -> bool:
         """Moves loan to settled loans dict, if no outstanding owed or no collat."""
-        loan =  self._fetch_loan(protocol_name=protocol_name, loan_num=loan_num)
+        loan = self._fetch_loan(protocol_name=protocol_name, loan_num=loan_num)
 
         if loan is None:
             return False
@@ -234,19 +232,21 @@ class Obligor:
 
             return True  # successfully processed repay transaction.
         return False  # nothing to reprocess.
-    
+
     # maybe add this.
-    def add_collateral(self,
-                       amt_colat_to_add : float,
-                       collat_name: str,
-                       protocol_name: str = "",
-                       loan_num: int = 0)->bool:
+    def add_collateral(
+        self,
+        amt_colat_to_add: float,
+        collat_name: str,
+        protocol_name: str = "",
+        loan_num: int = 0,
+    ) -> bool:
         """Simple function to improve credit by adding collateral. This effectively awards keeping util low."""
 
         loan = self._fetch_loan(protocol_name=protocol_name, loan_num=loan_num)
 
         if not isinstance(loan, type(None)):
-            original_collat_amt = loan.collateral_amts.get(collat_name,0)
+            original_collat_amt = loan.collateral_amts.get(collat_name, 0)
             loan.collateral_amts[collat_name] = original_collat_amt + amt_colat_to_add
 
             # 0.5 is just a guess at a reasonable parameter. This would need to be optimized.
@@ -271,23 +271,28 @@ class Obligor:
 
         if loan is None:
             raise Exception("Loan does not exist! ")
-        
-        #if aave in protocol name, search
-        #for the correct type of collat
-        #as it liquidates aEth[...]
-        if 'aave' in protocol_name:
+
+        # if aave in protocol name, search
+        # for the correct type of collat
+        # as it liquidates aEth[...]
+        if "aave" in protocol_name:
             for name in loan.collateral_amts.keys():
                 if collat_name in name:
                     # update the collateral amt
                     loan.collateral_amts[name] -= amt_to_liq
+                    self._inc_liquidation()
                     return True
-            print(loan.collateral_amts.keys())
             raise Exception("Can't liqudiate " + collat_name)
         else:
             loan.collateral_amts[collat_name] -= amt_to_liq
+            self._inc_liquidation()
 
     def withdraw_collateral(
-        self, withdraw_amt: float, collat_name: str, protocol_name: str = "", loan_num: int = ""
+        self,
+        withdraw_amt: float,
+        collat_name: str,
+        protocol_name: str = "",
+        loan_num: int = "",
     ) -> bool:
         """Remove collateral from loan."""
         loan = self._fetch_loan(protocol_name=protocol_name, loan_num=loan_num)
@@ -302,25 +307,26 @@ class Obligor:
 
     def get_proba(self) -> float:
         return self._alpha / (self._alpha + self._beta)
-    
+
     def get_score(self) -> int:
         return self._compute_score(self.get_proba())
-    
+
     def get_variance(self) -> float:
-        return (self._alpha*self._beta) / (((self._alpha + self._beta)**2)*(self._alpha + self._beta+1))
-    
+        return (self._alpha * self._beta) / (
+            ((self._alpha + self._beta) ** 2) * (self._alpha + self._beta + 1)
+        )
+
     def get_conf_interval(self, z: int = 2) -> Tuple[int, int]:
         # get variance
-        stdev: float = self.get_variance()**0.5
+        stdev: float = self.get_variance() ** 0.5
 
         # get bounds
         proba = self.get_proba()
-        lower_bound: float = max(proba - z*stdev,0)
-        upper_bound: float = max(proba + z*stdev, 0)
+        lower_bound: float = max(proba - z * stdev, 0)
+        upper_bound: float = max(proba + z * stdev, 0)
 
         # get score
         lower_score: float = self._compute_score(lower_bound)
         upper_score: float = self._compute_score(upper_bound)
 
         return (lower_score, upper_score)
-
